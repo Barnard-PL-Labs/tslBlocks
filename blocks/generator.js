@@ -23,7 +23,7 @@ tsl['new'] = function(block) {
     var number_snd = block.getFieldValue('snd');
     var number_trd = block.getFieldValue('trd');
     var value_name = tsl.valueToCode(block, 'NAME', tsl.PRECEDENCE);
-    var code = '( [ ' + dropdown_shapes + ' <- color ' + number_fst + ' ' +  number_snd + ' ' + number_trd + ' ] );';
+    var code = '( [ ' + dropdown_shapes + ' <- color ' + number_fst + ' ' +  number_snd + ' ' + number_trd + ' ] )';
 
     return [code, tsl.PRECEDENCE];
 };

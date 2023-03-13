@@ -2,20 +2,20 @@ Blockly.common.defineBlocks('./blocks/blocks');
 let spec = ""
 var toolbox = document.getElementById("toolbox");
 
-var options = { 
-	toolbox : toolbox, 
+var options = {
+	toolbox : toolbox,
 	collapse : true,
-	comments : true, 
-	disable : true, 
-	maxBlocks : Infinity, 
-	trashcan : true, 
+	comments : true,
+	disable : true,
+	maxBlocks : Infinity,
+	trashcan : true,
 	horizontalLayout : false,
-	toolboxPosition : 'start', 
+	toolboxPosition : 'start',
 	css : true,
-	media : 'https://blockly-demo.appspot.com/static/media/', 
+	media : 'https://blockly-demo.appspot.com/static/media/',
 	rtl : false,
-	scrollbars : true, 
-	sounds : true, 
+	scrollbars : true,
+	sounds : true,
 	oneBasedIndex : true
 };
 
